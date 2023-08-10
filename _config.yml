@@ -179,7 +179,7 @@ pv:
 
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计
 
@@ -191,7 +191,7 @@ plugins:
   tencent_analytics:
 
 # Miscellaneous
-twitter:
+twitter: https://twitter.com/doofyyo
 google_plus:
 fb_admins:
 fb_app_id:
@@ -199,14 +199,14 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  articleSelfBlock: false # 关闭文章下方的自我介绍
+  articleSelfBlock: true # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: DooFy
   author_title: Web Developer & Designer
-  author_description: 个人简介。
+  author_description: Patience is key in life
   location: JiNan, China
-  follow: https://github.com/cofess
+  follow: https://github.com/DooFy2020
   # Social Links
   social:
     links:
@@ -240,7 +240,7 @@ profile:
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
+      link: http://blog.fungopee.com
       date: 2016
   # My Personal Projects
 #  projects:
